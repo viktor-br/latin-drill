@@ -10,16 +10,16 @@ export const rootTopic: Topic = {
 };
 
 export function GetTopicCardByKeys(keys: string[]): TopicCard {
-  const reversedKeys = keys.reverse();
+  const reversedKeys = [...keys].reverse();
   let topic = rootTopic;
   const topics: Topic[] = [];
 
   while (reversedKeys.length > 0) {
-    const key = reversedKeys.pop();
-
     if (topic.topics === undefined) {
       return { topic, parentTopics: topics };
     }
+
+    const key = reversedKeys.pop();
 
     const subTopics = topic.topics.filter(({ name }) => name === key);
     if (subTopics.length !== 0) {

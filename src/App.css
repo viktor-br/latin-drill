@@ -23,7 +23,7 @@
     --bs-nav-link-padding-y: 0.25rem;
   }
 
-  .h5.card-title {
+  .offcanvas-body h5 {
     font-size: 1rem;
   }
 }

@@ -2,8 +2,11 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Question } from '../types/Question';
 import GenerateQuestionsByTopicKeys from '../service/GenerateQuestionsByTopicKeys';
 import { useLocation } from 'react-router-dom';
-import { Button, Form, Card } from 'react-bootstrap';
+import { Button, Form, Card, Container, Offcanvas } from 'react-bootstrap';
 import ValidateAnswer from '../service/ValidateAnswer';
+import QuestionHelp from './QuestionHelp';
+import { Simulate } from 'react-dom/test-utils';
+import focus = Simulate.focus;
 
 export interface CardProps {
   readonly prefix: string;
@@ -55,11 +58,13 @@ export default function QuestionCard({ prefix }: CardProps) {
   const [isValid, setValid] = useState(false);
   const [isInvalid, setInvalid] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const [isHelpVisible, setHelpVisible] = useState(false);
 
   const reset = useCallback(() => {
     setValid(false);
     setInvalid(false);
     setAnswer('');
+    setHelpVisible(false);
     inputRef?.current?.focus();
   }, []);
 
@@ -94,20 +99,50 @@ export default function QuestionCard({ prefix }: CardProps) {
   };
 
   useEffect(() => {
+    setState(CardState.Asked);
+    reset();
+    setQuestionIndex(0);
     setQuestions(
       shuffle(
         GenerateQuestionsByTopicKeys(extractTopicKeys(location.pathname.replace(prefix, ''))),
       ),
     );
-  }, [location.pathname, prefix]);
+  }, [location.pathname, prefix, reset]);
 
   return questions.length > 0 ? (
     <Card>
+      <Offcanvas
+        show={isHelpVisible}
+        keyboard={true}
+        onHide={() => setHelpVisible(false)}
+        onExited={() => inputRef?.current?.focus()}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>{questions[questionIndex].title}</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          <QuestionHelp
+            {...{
+              path: questions[questionIndex].topicPath.path,
+            }}
+          />
+        </Offcanvas.Body>
+      </Offcanvas>
+      <Card.Header>
+        <Container
+          className="d-flex d-row justify-content-end p-0"
+          onClick={() => setHelpVisible(!isHelpVisible)}>
+          <i className="bi bi-info-square"></i>
+        </Container>
+      </Card.Header>
       <Card.Body>
         {state !== CardState.Completed && (
           <>
-            <Card.Title>{questions[questionIndex].topicTitles.join(' / ')}</Card.Title>
-            <Card.Text>{questions[questionIndex].text}</Card.Text>
+            <Card.Title>
+              {questions[questionIndex].topicPath.titles.slice(0, -1).join(' / ')}
+            </Card.Title>
+            <Card.Text>
+              {questions[questionIndex].title}, {questions[questionIndex].text}
+            </Card.Text>
           </>
         )}
         <div className="d-grid gap-2">
