@@ -11,8 +11,8 @@ export default function CardsNavigation(props: NavigationProps) {
   const { navigation } = props;
 
   return (
-    <Container className="overflow-scroll p-0 flex-grow-1">
-      <Navbar className="cards-navigation">
+    <Container className="cards-navigation overflow-scroll p-0 flex-grow-1">
+      <Navbar>
         <Nav className="flex-column">
           {navigation.map((navigationElement) => (
             <CardsNavigationElement

@@ -12,7 +12,7 @@ function App() {
     window.location.pathname !== '/' ? '/' + window.location.pathname.split('/')[1] + '/' : '/';
 
   return (
-    <Container fluid="lg" className="vh-100 d-flex flex-column p-1">
+    <Container fluid="lg" className="app d-flex flex-column p-1">
       <Navbar>
         <Container className="justify-content-start">
           <Navbar.Brand>

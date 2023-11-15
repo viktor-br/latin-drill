@@ -11,8 +11,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-  html, body {
-    height: 100%;
+  .app {
+    height: 100dvh;
+  }
+
+  .cards-navigation {
+    overflow: scroll;
   }
 
   .cards-navigation .navbar-nav {
