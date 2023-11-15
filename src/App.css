@@ -11,12 +11,8 @@
 }
 
 @media only screen and (max-width: 768px) {
-  body {
-    height: -webkit-fill-available;
-  }
-
-  html {
-    height: -webkit-fill-available;
+  html, body {
+    height: 100%;
   }
 
   .cards-navigation .navbar-nav {
