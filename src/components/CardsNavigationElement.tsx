@@ -1,15 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Nav, NavItem } from 'react-bootstrap';
 import { CardsNavigationElementProps } from '../types/CardsNavigationElementProps';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function CardsNavigationElement(props: CardsNavigationElementProps) {
   const { navigationElement, parentPath, level } = props;
   const { label, name, subElements } = navigationElement;
   const path = parentPath + name + '/';
   const location = useLocation();
-  const [expanded, setExpanded] = useState(location.pathname.startsWith(path));
+  const [expanded, setExpanded] = useState(false);
   const cls: string = expanded ? 'flex-column' : 'flex-column d-none';
+
+  useEffect(() => {
+    setExpanded(location.pathname.startsWith(path));
+  }, [path, location.pathname]);
 
   return (
     <NavItem className={level === 0 ? '' : 'cards-navigation-item'}>
@@ -19,7 +23,7 @@ export default function CardsNavigationElement(props: CardsNavigationElementProp
             <i className={'bi bi-file-'.concat(expanded ? 'minus' : 'plus')}></i>
           </span>
         )}
-        <Nav.Link href={path} as="a" active={location.pathname.startsWith(path)}>
+        <Nav.Link to={path} as={Link} active={location.pathname.startsWith(path)}>
           {label}
         </Nav.Link>
       </Container>
