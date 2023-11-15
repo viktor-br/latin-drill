@@ -41,8 +41,7 @@ function GenerateQuestionsByTopic(
 ): Question[] {
   if (topics !== undefined && topics.length > 0) {
     return topics.reduce((accumulator: Question[], topic) => {
-      parentTopicTitles.push(topic.title);
-      GenerateQuestionsByTopic(topic, parentTopicTitles).map((question) =>
+      GenerateQuestionsByTopic(topic, [...parentTopicTitles, topic.title]).map((question) =>
         accumulator.push(question),
       );
 
