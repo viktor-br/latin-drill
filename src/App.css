@@ -1,0 +1,21 @@
+.cards-navigation-item {
+  padding-left: 25px;
+}
+
+.cards-navigation-folder {
+  cursor: pointer;
+}
+
+.cards-navigation .nav-link.active {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards-navigation .navbar-nav {
+    --bs-nav-link-padding-y: 0.25rem;
+  }
+
+  .h5.card-title {
+    font-size: 1rem;
+  }
+}
