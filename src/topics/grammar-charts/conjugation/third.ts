@@ -4,7 +4,7 @@ export const PresentActiveIndicative: GrammarChart = {
   title: 'Present Active Indicative',
   data: {
     Singular: {
-      '1st Person': 'rego',
+      '1st Person': 'regō',
       '2nd Person': 'regis',
       '3rd Person ': 'regit',
     },
@@ -20,14 +20,14 @@ export const PerfectActiveIndicative: GrammarChart = {
   title: 'Perfect Active Indicative',
   data: {
     Singular: {
-      '1st Person': 'rexi',
-      '2nd Person': 'rexisti',
-      '3rd Person ': 'rexit',
+      '1st Person': 'rēxī',
+      '2nd Person': 'rēxistī',
+      '3rd Person ': 'rēxit',
     },
     Plural: {
-      '1st Person': 'reximus',
-      '2nd Person': 'rexistis',
-      '3rd Person ': 'rexerunt',
+      '1st Person': 'rēximus',
+      '2nd Person': 'rēxistis',
+      '3rd Person ': 'rēxērunt',
     },
   },
 };
@@ -37,12 +37,12 @@ export const FutureActiveIndicative: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'regam',
-      '2nd Person': 'reges',
+      '2nd Person': 'regēs',
       '3rd Person ': 'reget',
     },
     Plural: {
-      '1st Person': 'regemus',
-      '2nd Person': 'regetis',
+      '1st Person': 'regēmus',
+      '2nd Person': 'regētis',
       '3rd Person ': 'regent',
     },
   },
@@ -58,7 +58,7 @@ export const PresentPassiveIndicative: GrammarChart = {
     },
     Plural: {
       '1st Person': 'regimur',
-      '2nd Person': 'regimini',
+      '2nd Person': 'regiminī',
       '3rd Person ': 'reguntur',
     },
   },
@@ -68,14 +68,14 @@ export const PerfectPassiveIndicative: GrammarChart = {
   title: 'Perfect Passive Indicative',
   data: {
     Singular: {
-      '1st Person': 'rectus sum',
-      '2nd Person': 'rectus es',
-      '3rd Person ': 'rectus est',
+      '1st Person': 'rēctus sum',
+      '2nd Person': 'rēctus es',
+      '3rd Person ': 'rēctus est',
     },
     Plural: {
-      '1st Person': 'recti sumus',
-      '2nd Person': 'recti estis',
-      '3rd Person ': 'recti sunt',
+      '1st Person': 'rēctī sumus',
+      '2nd Person': 'rēctī estis',
+      '3rd Person ': 'rēctī sunt',
     },
   },
 };
@@ -85,12 +85,12 @@ export const FuturePassiveIndicative: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'regar',
-      '2nd Person': 'regeris',
-      '3rd Person ': 'regetur',
+      '2nd Person': 'regēris',
+      '3rd Person ': 'regētur',
     },
     Plural: {
-      '1st Person': 'regemur',
-      '2nd Person': 'regemini',
+      '1st Person': 'regēmur',
+      '2nd Person': 'regēminī',
       '3rd Person ': 'regentur',
     },
   },
@@ -101,12 +101,12 @@ export const PresentActiveSubjunctive: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'regam',
-      '2nd Person': 'regas',
+      '2nd Person': 'regās',
       '3rd Person ': 'regat',
     },
     Plural: {
-      '1st Person': 'regamus',
-      '2nd Person': 'regatis',
+      '1st Person': 'regāmus',
+      '2nd Person': 'regātis',
       '3rd Person ': 'regant',
     },
   },
@@ -117,12 +117,12 @@ export const ImperfectActiveSubjunctive: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'regerem',
-      '2nd Person': 'regeres',
+      '2nd Person': 'regerēs',
       '3rd Person ': 'regeret',
     },
     Plural: {
-      '1st Person': 'regeremus',
-      '2nd Person': 'regeretis',
+      '1st Person': 'regerēmus',
+      '2nd Person': 'regerētis',
       '3rd Person ': 'regerent',
     },
   },
@@ -133,12 +133,12 @@ export const PresentPassiveSubjunctive: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'regar',
-      '2nd Person': 'regaris',
-      '3rd Person ': 'regatur',
+      '2nd Person': 'regāris',
+      '3rd Person ': 'regātur',
     },
     Plural: {
-      '1st Person': 'regamur',
-      '2nd Person': 'regamini',
+      '1st Person': 'regāmur',
+      '2nd Person': 'regāminī',
       '3rd Person ': 'regantur',
     },
   },
@@ -149,12 +149,12 @@ export const ImperfectPassiveSubjunctive: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'regerer',
-      '2nd Person': 'regereris',
-      '3rd Person ': 'regeretur',
+      '2nd Person': 'regerēris',
+      '3rd Person ': 'regerētur',
     },
     Plural: {
-      '1st Person': 'regeremur',
-      '2nd Person': 'regeremini',
+      '1st Person': 'regerēmur',
+      '2nd Person': 'regerēminī',
       '3rd Person ': 'regerentur',
     },
   },

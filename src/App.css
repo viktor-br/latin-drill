@@ -9,6 +9,9 @@
 .cards-navigation .nav-link.active {
   text-decoration: underline;
 }
+.card-header .bi {
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 768px) {
   .app {

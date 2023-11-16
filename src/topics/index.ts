@@ -2,11 +2,12 @@ import { Topic } from '../types/Topic';
 import Pronouns from './Pronouns';
 import Conjugation from './Conjugation';
 import { TopicCard } from '../types/TopicCard';
+import Declension from './Declension';
 
 export const rootTopic: Topic = {
   title: 'Root',
   name: 'root',
-  topics: [Pronouns, Conjugation],
+  topics: [Pronouns, Conjugation, Declension],
 };
 
 export function GetTopicCardByKeys(keys: string[]): TopicCard {

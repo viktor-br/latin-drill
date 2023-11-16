@@ -4,13 +4,13 @@ export const PresentActiveIndicative: GrammarChart = {
   title: 'Present Active Indicative',
   data: {
     Singular: {
-      '1st Person': 'audio',
-      '2nd Person': 'audis',
+      '1st Person': 'audiō',
+      '2nd Person': 'audīs',
       '3rd Person ': 'audit',
     },
     Plural: {
-      '1st Person': 'audimus',
-      '2nd Person': 'auditis',
+      '1st Person': 'audīmus',
+      '2nd Person': 'audītis',
       '3rd Person ': 'audiunt',
     },
   },
@@ -20,14 +20,14 @@ export const PerfectActiveIndicative: GrammarChart = {
   title: 'Perfect Active Indicative',
   data: {
     Singular: {
-      '1st Person': 'audivi',
-      '2nd Person': 'audivisti',
-      '3rd Person ': 'audivit',
+      '1st Person': 'audīvī',
+      '2nd Person': 'audīvistī',
+      '3rd Person ': 'audīvit',
     },
     Plural: {
-      '1st Person': 'audivimus',
-      '2nd Person': 'audivistis',
-      '3rd Person ': 'audiverunt',
+      '1st Person': 'audīvimus',
+      '2nd Person': 'audīvistis',
+      '3rd Person ': 'audīvērunt',
     },
   },
 };
@@ -37,12 +37,12 @@ export const FutureActiveIndicative: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'audiam',
-      '2nd Person': 'audies',
+      '2nd Person': 'audiēs',
       '3rd Person ': 'audiet',
     },
     Plural: {
-      '1st Person': 'audiemus',
-      '2nd Person': 'audietis',
+      '1st Person': 'audiēmus',
+      '2nd Person': 'audiētis',
       '3rd Person ': 'audient',
     },
   },
@@ -53,12 +53,12 @@ export const PresentPassiveIndicative: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'audior',
-      '2nd Person': 'audiris',
-      '3rd Person ': 'auditur',
+      '2nd Person': 'audīris',
+      '3rd Person ': 'audītur',
     },
     Plural: {
-      '1st Person': 'audimur',
-      '2nd Person': 'audimini',
+      '1st Person': 'audīmur',
+      '2nd Person': 'audīminī',
       '3rd Person ': 'audiuntur',
     },
   },
@@ -68,14 +68,14 @@ export const PerfectPassiveIndicative: GrammarChart = {
   title: 'Perfect Passive Indicative',
   data: {
     Singular: {
-      '1st Person': 'auditus sum',
-      '2nd Person': 'auditus es',
-      '3rd Person ': 'auditus est',
+      '1st Person': 'audītus sum',
+      '2nd Person': 'audītus es',
+      '3rd Person ': 'audītus est',
     },
     Plural: {
-      '1st Person': 'auditi sum',
-      '2nd Person': 'auditi estis',
-      '3rd Person ': 'audit sunt',
+      '1st Person': 'audītī sum',
+      '2nd Person': 'audītī estis',
+      '3rd Person ': 'audītī sunt',
     },
   },
 };
@@ -85,12 +85,12 @@ export const FuturePassiveIndicative: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'audiar',
-      '2nd Person': 'audieris',
-      '3rd Person ': 'audietur',
+      '2nd Person': 'audiēris',
+      '3rd Person ': 'audiētur',
     },
     Plural: {
-      '1st Person': 'audiemur',
-      '2nd Person': 'audiemini',
+      '1st Person': 'audiēmur',
+      '2nd Person': 'audiēminī',
       '3rd Person ': 'audientur',
     },
   },
@@ -101,12 +101,12 @@ export const PresentActiveSubjunctive: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'audiam',
-      '2nd Person': 'audias',
+      '2nd Person': 'audiās',
       '3rd Person ': 'audiat',
     },
     Plural: {
-      '1st Person': 'audiamus',
-      '2nd Person': 'audiatis',
+      '1st Person': 'audiāmus',
+      '2nd Person': 'audiātis',
       '3rd Person ': 'audiant',
     },
   },
@@ -116,14 +116,14 @@ export const ImperfectActiveSubjunctive: GrammarChart = {
   title: 'Imperfect Active Subjunctive',
   data: {
     Singular: {
-      '1st Person': 'audirem',
-      '2nd Person': 'audires',
-      '3rd Person ': 'audiret',
+      '1st Person': 'audīrem',
+      '2nd Person': 'audīrēs',
+      '3rd Person ': 'audīret',
     },
     Plural: {
-      '1st Person': 'audiremus',
-      '2nd Person': 'audiretis',
-      '3rd Person ': 'audirent',
+      '1st Person': 'audīrēmus',
+      '2nd Person': 'audīrētis',
+      '3rd Person ': 'audīrent',
     },
   },
 };
@@ -133,12 +133,12 @@ export const PresentPassiveSubjunctive: GrammarChart = {
   data: {
     Singular: {
       '1st Person': 'audiar',
-      '2nd Person': 'audiaris',
-      '3rd Person ': 'audiatur',
+      '2nd Person': 'audiāris',
+      '3rd Person ': 'audiātur',
     },
     Plural: {
-      '1st Person': 'audiamur',
-      '2nd Person': 'audiamini',
+      '1st Person': 'audiāmur',
+      '2nd Person': 'audiāminī',
       '3rd Person ': 'audiantur',
     },
   },
@@ -148,14 +148,14 @@ export const ImperfectPassiveSubjunctive: GrammarChart = {
   title: 'Imperfect Passive Subjunctive',
   data: {
     Singular: {
-      '1st Person': 'audirer',
-      '2nd Person': 'audireris',
-      '3rd Person ': 'audiretur',
+      '1st Person': 'audīrer',
+      '2nd Person': 'audīrēris',
+      '3rd Person ': 'audīrētur',
     },
     Plural: {
-      '1st Person': 'audiremur',
-      '2nd Person': 'audiremini',
-      '3rd Person ': 'audirentur',
+      '1st Person': 'audīrēmur',
+      '2nd Person': 'audīrēminī',
+      '3rd Person ': 'audīrentur',
     },
   },
 };
