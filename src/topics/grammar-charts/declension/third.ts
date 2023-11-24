@@ -5,8 +5,8 @@ export const ThirdDeclensionMasculine: GrammarChart = {
   data: {
     Singular: {
       Nom: 'mīles',
-      Acc: 'mīles',
-      Gen: 'mīlitem',
+      Acc: 'mīlitem',
+      Gen: 'mīlitis',
       Dat: 'mīlitī',
       Abl: 'mīlite',
     },

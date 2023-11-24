@@ -66,7 +66,7 @@ export const SecondDeclensionMasculineInUs: GrammarChart = {
     Singular: {
       Nom: 'filius',
       Acc: 'filium',
-      Gen: 'fili',
+      Gen: 'filiī',
       Dat: 'filiō',
       Abl: 'filiō',
     },
