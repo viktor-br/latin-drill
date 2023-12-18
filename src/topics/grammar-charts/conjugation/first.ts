@@ -159,3 +159,35 @@ export const ImperfectPassiveSubjunctive: GrammarChart = {
     },
   },
 };
+
+export const ImperfectActiveIndicative: GrammarChart = {
+  title: 'Imperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'amābam',
+      '2nd Person': 'amābās',
+      '3rd Person ': 'amābat',
+    },
+    Plural: {
+      '1st Person': 'amābāmus',
+      '2nd Person': 'amābātis',
+      '3rd Person ': 'amābant',
+    },
+  },
+};
+
+export const ImperfectPassiveIndicative: GrammarChart = {
+  title: 'Imperfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'amābar',
+      '2nd Person': 'amābāris',
+      '3rd Person ': 'amābātur',
+    },
+    Plural: {
+      '1st Person': 'amābāmur',
+      '2nd Person': 'amābāminī',
+      '3rd Person ': 'amābantur',
+    },
+  },
+};

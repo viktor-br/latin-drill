@@ -10,6 +10,8 @@ import {
   ImperfectActiveSubjunctive,
   PresentPassiveSubjunctive,
   ImperfectPassiveSubjunctive,
+  ImperfectActiveIndicative,
+  ImperfectPassiveIndicative,
 } from './grammar-charts/conjugation/mixed';
 
 const MixedConjugationActive: Topic = {
@@ -29,6 +31,11 @@ const MixedConjugationActive: Topic = {
           title: 'Perfect',
           name: 'perfect',
           grammarChart: PerfectActiveIndicative,
+        },
+        {
+          title: 'Imperfect',
+          name: 'imperfect',
+          grammarChart: ImperfectActiveIndicative,
         },
         {
           title: 'Future',
@@ -73,6 +80,11 @@ const MixedConjugationPassive: Topic = {
           title: 'Perfect',
           name: 'perfect',
           grammarChart: PerfectPassiveIndicative,
+        },
+        {
+          title: 'Imperfect',
+          name: 'imprefect',
+          grammarChart: ImperfectPassiveIndicative,
         },
         {
           title: 'Future',

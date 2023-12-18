@@ -159,3 +159,35 @@ export const ImperfectPassiveSubjunctive: GrammarChart = {
     },
   },
 };
+
+export const ImperfectActiveIndicative: GrammarChart = {
+  title: 'Imperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'capiēbam',
+      '2nd Person': 'capiēbās',
+      '3rd Person ': 'capiēbat',
+    },
+    Plural: {
+      '1st Person': 'capiēbāmus',
+      '2nd Person': 'capiēbātis',
+      '3rd Person ': 'capiēbant',
+    },
+  },
+};
+
+export const ImperfectPassiveIndicative: GrammarChart = {
+  title: 'Imperfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'capiēbar',
+      '2nd Person': 'capiēbāris',
+      '3rd Person ': 'capiēbātur',
+    },
+    Plural: {
+      '1st Person': 'capiēbāmur',
+      '2nd Person': 'capiēbāminī',
+      '3rd Person ': 'capiēbantur',
+    },
+  },
+};

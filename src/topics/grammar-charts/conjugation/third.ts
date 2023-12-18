@@ -159,3 +159,35 @@ export const ImperfectPassiveSubjunctive: GrammarChart = {
     },
   },
 };
+
+export const ImperfectActiveIndicative: GrammarChart = {
+  title: 'Imperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'regēbam',
+      '2nd Person': 'regēbās',
+      '3rd Person ': 'regēbat',
+    },
+    Plural: {
+      '1st Person': 'regēbāmus',
+      '2nd Person': 'regēbātis',
+      '3rd Person ': 'regēbant',
+    },
+  },
+};
+
+export const ImperfectPassiveIndicative: GrammarChart = {
+  title: 'Imperfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'regēbar',
+      '2nd Person': 'regēbāris',
+      '3rd Person ': 'regēbātur',
+    },
+    Plural: {
+      '1st Person': 'regēbāmur',
+      '2nd Person': 'regēbāminī',
+      '3rd Person ': 'regēbantur',
+    },
+  },
+};

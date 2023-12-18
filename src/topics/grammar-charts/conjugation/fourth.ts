@@ -159,3 +159,35 @@ export const ImperfectPassiveSubjunctive: GrammarChart = {
     },
   },
 };
+
+export const ImperfectActiveIndicative: GrammarChart = {
+  title: 'Imperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'audiēbam',
+      '2nd Person': 'audiēbās',
+      '3rd Person ': 'audiēbat',
+    },
+    Plural: {
+      '1st Person': 'audiēbāmus',
+      '2nd Person': 'audiēbātis',
+      '3rd Person ': 'audiēbant',
+    },
+  },
+};
+
+export const ImperfectPassiveIndicative: GrammarChart = {
+  title: 'Imperfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'audiēbar',
+      '2nd Person': 'audiēbāris',
+      '3rd Person ': 'audiēbātur',
+    },
+    Plural: {
+      '1st Person': 'audiēbāmur',
+      '2nd Person': 'audiēbāminī',
+      '3rd Person ': 'audiēbantur',
+    },
+  },
+};
