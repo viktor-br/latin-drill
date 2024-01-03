@@ -73,7 +73,7 @@ export const PerfectPassiveIndicative: GrammarChart = {
       '3rd Person ': 'audītus est',
     },
     Plural: {
-      '1st Person': 'audītī sum',
+      '1st Person': 'audītī sumus',
       '2nd Person': 'audītī estis',
       '3rd Person ': 'audītī sunt',
     },

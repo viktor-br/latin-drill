@@ -89,7 +89,7 @@ export const FuturePassiveIndicative: GrammarChart = {
       '3rd Person ': 'capiētur',
     },
     Plural: {
-      '1st Person': 'capiēmus',
+      '1st Person': 'capiēmur',
       '2nd Person': 'capiēminī',
       '3rd Person ': 'capientur',
     },
