@@ -4,6 +4,7 @@ import SecondConjugation from './SecondConjugation';
 import ThirdConjugation from './ThirdConjugation';
 import FourthConjugation from './FourthConjugation';
 import MixedConjugation from './MixedConjugation';
+import IrregularVerbsConjugation from './IrregularVerbsConjugation';
 
 const Conjugation: Topic = {
   title: 'Conjugation',
@@ -14,6 +15,7 @@ const Conjugation: Topic = {
     ThirdConjugation,
     FourthConjugation,
     MixedConjugation,
+    IrregularVerbsConjugation,
   ],
 };
 export default Conjugation;

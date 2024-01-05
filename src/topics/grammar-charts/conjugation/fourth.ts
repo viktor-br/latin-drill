@@ -6,12 +6,12 @@ export const PresentActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'audiō',
       '2nd Person': 'audīs',
-      '3rd Person ': 'audit',
+      '3rd Person': 'audit',
     },
     Plural: {
       '1st Person': 'audīmus',
       '2nd Person': 'audītis',
-      '3rd Person ': 'audiunt',
+      '3rd Person': 'audiunt',
     },
   },
 };
@@ -22,12 +22,12 @@ export const PerfectActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'audīvī',
       '2nd Person': 'audīvistī',
-      '3rd Person ': 'audīvit',
+      '3rd Person': 'audīvit',
     },
     Plural: {
       '1st Person': 'audīvimus',
       '2nd Person': 'audīvistis',
-      '3rd Person ': 'audīvērunt',
+      '3rd Person': 'audīvērunt',
     },
   },
 };
@@ -38,12 +38,12 @@ export const FutureActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'audiam',
       '2nd Person': 'audiēs',
-      '3rd Person ': 'audiet',
+      '3rd Person': 'audiet',
     },
     Plural: {
       '1st Person': 'audiēmus',
       '2nd Person': 'audiētis',
-      '3rd Person ': 'audient',
+      '3rd Person': 'audient',
     },
   },
 };
@@ -54,12 +54,12 @@ export const PresentPassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'audior',
       '2nd Person': 'audīris',
-      '3rd Person ': 'audītur',
+      '3rd Person': 'audītur',
     },
     Plural: {
       '1st Person': 'audīmur',
       '2nd Person': 'audīminī',
-      '3rd Person ': 'audiuntur',
+      '3rd Person': 'audiuntur',
     },
   },
 };
@@ -70,12 +70,12 @@ export const PerfectPassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'audītus sum',
       '2nd Person': 'audītus es',
-      '3rd Person ': 'audītus est',
+      '3rd Person': 'audītus est',
     },
     Plural: {
       '1st Person': 'audītī sumus',
       '2nd Person': 'audītī estis',
-      '3rd Person ': 'audītī sunt',
+      '3rd Person': 'audītī sunt',
     },
   },
 };
@@ -86,12 +86,12 @@ export const FuturePassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'audiar',
       '2nd Person': 'audiēris',
-      '3rd Person ': 'audiētur',
+      '3rd Person': 'audiētur',
     },
     Plural: {
       '1st Person': 'audiēmur',
       '2nd Person': 'audiēminī',
-      '3rd Person ': 'audientur',
+      '3rd Person': 'audientur',
     },
   },
 };
@@ -102,12 +102,12 @@ export const PresentActiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'audiam',
       '2nd Person': 'audiās',
-      '3rd Person ': 'audiat',
+      '3rd Person': 'audiat',
     },
     Plural: {
       '1st Person': 'audiāmus',
       '2nd Person': 'audiātis',
-      '3rd Person ': 'audiant',
+      '3rd Person': 'audiant',
     },
   },
 };
@@ -118,12 +118,12 @@ export const ImperfectActiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'audīrem',
       '2nd Person': 'audīrēs',
-      '3rd Person ': 'audīret',
+      '3rd Person': 'audīret',
     },
     Plural: {
       '1st Person': 'audīrēmus',
       '2nd Person': 'audīrētis',
-      '3rd Person ': 'audīrent',
+      '3rd Person': 'audīrent',
     },
   },
 };
@@ -134,12 +134,12 @@ export const PresentPassiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'audiar',
       '2nd Person': 'audiāris',
-      '3rd Person ': 'audiātur',
+      '3rd Person': 'audiātur',
     },
     Plural: {
       '1st Person': 'audiāmur',
       '2nd Person': 'audiāminī',
-      '3rd Person ': 'audiantur',
+      '3rd Person': 'audiantur',
     },
   },
 };
@@ -150,12 +150,12 @@ export const ImperfectPassiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'audīrer',
       '2nd Person': 'audīrēris',
-      '3rd Person ': 'audīrētur',
+      '3rd Person': 'audīrētur',
     },
     Plural: {
       '1st Person': 'audīrēmur',
       '2nd Person': 'audīrēminī',
-      '3rd Person ': 'audīrentur',
+      '3rd Person': 'audīrentur',
     },
   },
 };
@@ -166,12 +166,12 @@ export const ImperfectActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'audiēbam',
       '2nd Person': 'audiēbās',
-      '3rd Person ': 'audiēbat',
+      '3rd Person': 'audiēbat',
     },
     Plural: {
       '1st Person': 'audiēbāmus',
       '2nd Person': 'audiēbātis',
-      '3rd Person ': 'audiēbant',
+      '3rd Person': 'audiēbant',
     },
   },
 };
@@ -182,12 +182,12 @@ export const ImperfectPassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'audiēbar',
       '2nd Person': 'audiēbāris',
-      '3rd Person ': 'audiēbātur',
+      '3rd Person': 'audiēbātur',
     },
     Plural: {
       '1st Person': 'audiēbāmur',
       '2nd Person': 'audiēbāminī',
-      '3rd Person ': 'audiēbantur',
+      '3rd Person': 'audiēbantur',
     },
   },
 };

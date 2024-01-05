@@ -7,7 +7,7 @@ import Declension from './Declension';
 export const rootTopic: Topic = {
   title: 'Root',
   name: 'root',
-  topics: [Pronouns, Conjugation, Declension],
+  topics: [Conjugation, Declension, Pronouns],
 };
 
 export function GetTopicCardByKeys(keys: string[]): TopicCard {

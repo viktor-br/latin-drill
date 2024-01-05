@@ -6,12 +6,12 @@ export const PresentActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'moneō',
       '2nd Person': 'monēs',
-      '3rd Person ': 'monet',
+      '3rd Person': 'monet',
     },
     Plural: {
       '1st Person': 'monēmus',
       '2nd Person': 'monētis',
-      '3rd Person ': 'monent',
+      '3rd Person': 'monent',
     },
   },
 };
@@ -22,12 +22,12 @@ export const PerfectActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'monuī',
       '2nd Person': 'monuistī',
-      '3rd Person ': 'monuit',
+      '3rd Person': 'monuit',
     },
     Plural: {
       '1st Person': 'monuimus',
       '2nd Person': 'monuistis',
-      '3rd Person ': 'monuērunt',
+      '3rd Person': 'monuērunt',
     },
   },
 };
@@ -38,12 +38,12 @@ export const FutureActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'monēbō',
       '2nd Person': 'monēbis',
-      '3rd Person ': 'monēbit',
+      '3rd Person': 'monēbit',
     },
     Plural: {
       '1st Person': 'monēbimus',
       '2nd Person': 'monēbitis',
-      '3rd Person ': 'monēbunt',
+      '3rd Person': 'monēbunt',
     },
   },
 };
@@ -54,12 +54,12 @@ export const PresentPassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'moneor',
       '2nd Person': 'monēris',
-      '3rd Person ': 'monētur',
+      '3rd Person': 'monētur',
     },
     Plural: {
       '1st Person': 'monēmur',
       '2nd Person': 'monēminī',
-      '3rd Person ': 'monentur',
+      '3rd Person': 'monentur',
     },
   },
 };
@@ -70,12 +70,12 @@ export const PerfectPassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'monitus sum',
       '2nd Person': 'monitus es',
-      '3rd Person ': 'monitus est',
+      '3rd Person': 'monitus est',
     },
     Plural: {
       '1st Person': 'monitī sumus',
       '2nd Person': 'monitī estis',
-      '3rd Person ': 'monitī sunt',
+      '3rd Person': 'monitī sunt',
     },
   },
 };
@@ -86,12 +86,12 @@ export const FuturePassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'monēbor',
       '2nd Person': 'monēberis',
-      '3rd Person ': 'monēbitur',
+      '3rd Person': 'monēbitur',
     },
     Plural: {
       '1st Person': 'monēbimur',
       '2nd Person': 'monēbiminī',
-      '3rd Person ': 'monēbuntur',
+      '3rd Person': 'monēbuntur',
     },
   },
 };
@@ -102,12 +102,12 @@ export const PresentActiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'moneam',
       '2nd Person': 'moneās',
-      '3rd Person ': 'moneat',
+      '3rd Person': 'moneat',
     },
     Plural: {
       '1st Person': 'moneāmus',
       '2nd Person': 'moneātis',
-      '3rd Person ': 'moneant',
+      '3rd Person': 'moneant',
     },
   },
 };
@@ -118,12 +118,12 @@ export const ImperfectActiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'monērem',
       '2nd Person': 'monērēs',
-      '3rd Person ': 'monēret',
+      '3rd Person': 'monēret',
     },
     Plural: {
       '1st Person': 'monērēmus',
       '2nd Person': 'monērētis',
-      '3rd Person ': 'monērent',
+      '3rd Person': 'monērent',
     },
   },
 };
@@ -134,12 +134,12 @@ export const PresentPassiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'monear',
       '2nd Person': 'moneāris',
-      '3rd Person ': 'moneātur',
+      '3rd Person': 'moneātur',
     },
     Plural: {
       '1st Person': 'moneāmur',
       '2nd Person': 'moneāminī',
-      '3rd Person ': 'moneantur',
+      '3rd Person': 'moneantur',
     },
   },
 };
@@ -150,12 +150,12 @@ export const ImperfectPassiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'monērer',
       '2nd Person': 'monērēris',
-      '3rd Person ': 'monērētur',
+      '3rd Person': 'monērētur',
     },
     Plural: {
       '1st Person': 'monērēmur',
       '2nd Person': 'monērēminī',
-      '3rd Person ': 'monērentur',
+      '3rd Person': 'monērentur',
     },
   },
 };
@@ -166,12 +166,12 @@ export const ImperfectActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'monēbam',
       '2nd Person': 'monēbās',
-      '3rd Person ': 'monēbat',
+      '3rd Person': 'monēbat',
     },
     Plural: {
       '1st Person': 'monēbāmus',
       '2nd Person': 'monēbātis',
-      '3rd Person ': 'monēbant',
+      '3rd Person': 'monēbant',
     },
   },
 };
@@ -182,12 +182,12 @@ export const ImperfectPassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'monēbar',
       '2nd Person': 'monēbāris',
-      '3rd Person ': 'monēbātur',
+      '3rd Person': 'monēbātur',
     },
     Plural: {
       '1st Person': 'monēbāmur',
       '2nd Person': 'monēbāminī',
-      '3rd Person ': 'monēbantur',
+      '3rd Person': 'monēbantur',
     },
   },
 };

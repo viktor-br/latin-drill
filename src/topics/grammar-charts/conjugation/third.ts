@@ -6,12 +6,12 @@ export const PresentActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'regō',
       '2nd Person': 'regis',
-      '3rd Person ': 'regit',
+      '3rd Person': 'regit',
     },
     Plural: {
       '1st Person': 'regimus',
       '2nd Person': 'regitis',
-      '3rd Person ': 'regunt',
+      '3rd Person': 'regunt',
     },
   },
 };
@@ -22,12 +22,12 @@ export const PerfectActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'rēxī',
       '2nd Person': 'rēxistī',
-      '3rd Person ': 'rēxit',
+      '3rd Person': 'rēxit',
     },
     Plural: {
       '1st Person': 'rēximus',
       '2nd Person': 'rēxistis',
-      '3rd Person ': 'rēxērunt',
+      '3rd Person': 'rēxērunt',
     },
   },
 };
@@ -38,12 +38,12 @@ export const FutureActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'regam',
       '2nd Person': 'regēs',
-      '3rd Person ': 'reget',
+      '3rd Person': 'reget',
     },
     Plural: {
       '1st Person': 'regēmus',
       '2nd Person': 'regētis',
-      '3rd Person ': 'regent',
+      '3rd Person': 'regent',
     },
   },
 };
@@ -54,12 +54,12 @@ export const PresentPassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'regor',
       '2nd Person': 'regeris',
-      '3rd Person ': 'regitur',
+      '3rd Person': 'regitur',
     },
     Plural: {
       '1st Person': 'regimur',
       '2nd Person': 'regiminī',
-      '3rd Person ': 'reguntur',
+      '3rd Person': 'reguntur',
     },
   },
 };
@@ -70,12 +70,12 @@ export const PerfectPassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'rēctus sum',
       '2nd Person': 'rēctus es',
-      '3rd Person ': 'rēctus est',
+      '3rd Person': 'rēctus est',
     },
     Plural: {
       '1st Person': 'rēctī sumus',
       '2nd Person': 'rēctī estis',
-      '3rd Person ': 'rēctī sunt',
+      '3rd Person': 'rēctī sunt',
     },
   },
 };
@@ -86,12 +86,12 @@ export const FuturePassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'regar',
       '2nd Person': 'regēris',
-      '3rd Person ': 'regētur',
+      '3rd Person': 'regētur',
     },
     Plural: {
       '1st Person': 'regēmur',
       '2nd Person': 'regēminī',
-      '3rd Person ': 'regentur',
+      '3rd Person': 'regentur',
     },
   },
 };
@@ -102,12 +102,12 @@ export const PresentActiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'regam',
       '2nd Person': 'regās',
-      '3rd Person ': 'regat',
+      '3rd Person': 'regat',
     },
     Plural: {
       '1st Person': 'regāmus',
       '2nd Person': 'regātis',
-      '3rd Person ': 'regant',
+      '3rd Person': 'regant',
     },
   },
 };
@@ -118,12 +118,12 @@ export const ImperfectActiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'regerem',
       '2nd Person': 'regerēs',
-      '3rd Person ': 'regeret',
+      '3rd Person': 'regeret',
     },
     Plural: {
       '1st Person': 'regerēmus',
       '2nd Person': 'regerētis',
-      '3rd Person ': 'regerent',
+      '3rd Person': 'regerent',
     },
   },
 };
@@ -134,12 +134,12 @@ export const PresentPassiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'regar',
       '2nd Person': 'regāris',
-      '3rd Person ': 'regātur',
+      '3rd Person': 'regātur',
     },
     Plural: {
       '1st Person': 'regāmur',
       '2nd Person': 'regāminī',
-      '3rd Person ': 'regantur',
+      '3rd Person': 'regantur',
     },
   },
 };
@@ -150,12 +150,12 @@ export const ImperfectPassiveSubjunctive: GrammarChart = {
     Singular: {
       '1st Person': 'regerer',
       '2nd Person': 'regerēris',
-      '3rd Person ': 'regerētur',
+      '3rd Person': 'regerētur',
     },
     Plural: {
       '1st Person': 'regerēmur',
       '2nd Person': 'regerēminī',
-      '3rd Person ': 'regerentur',
+      '3rd Person': 'regerentur',
     },
   },
 };
@@ -166,12 +166,12 @@ export const ImperfectActiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'regēbam',
       '2nd Person': 'regēbās',
-      '3rd Person ': 'regēbat',
+      '3rd Person': 'regēbat',
     },
     Plural: {
       '1st Person': 'regēbāmus',
       '2nd Person': 'regēbātis',
-      '3rd Person ': 'regēbant',
+      '3rd Person': 'regēbant',
     },
   },
 };
@@ -182,12 +182,12 @@ export const ImperfectPassiveIndicative: GrammarChart = {
     Singular: {
       '1st Person': 'regēbar',
       '2nd Person': 'regēbāris',
-      '3rd Person ': 'regēbātur',
+      '3rd Person': 'regēbātur',
     },
     Plural: {
       '1st Person': 'regēbāmur',
       '2nd Person': 'regēbāminī',
-      '3rd Person ': 'regēbantur',
+      '3rd Person': 'regēbantur',
     },
   },
 };
