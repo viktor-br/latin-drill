@@ -12,6 +12,14 @@ import {
   ImperfectPassiveSubjunctive,
   ImperfectActiveIndicative,
   ImperfectPassiveIndicative,
+  PluperfectActiveIndicative,
+  PluperfectPassiveIndicative,
+  FuturePerfectActiveIndicative,
+  FuturePerfectPassiveIndicative,
+  PerfectActiveSubjunctive,
+  PerfectPassiveSubjunctive,
+  PluperfectActiveSubjunctive,
+  PluperfectPassiveSubjunctive,
 } from './grammar-charts/conjugation/fourth';
 
 const FourthConjugationActive: Topic = {
@@ -38,9 +46,19 @@ const FourthConjugationActive: Topic = {
           grammarChart: ImperfectActiveIndicative,
         },
         {
+          title: 'Pluperfect',
+          name: 'pluperfect',
+          grammarChart: PluperfectActiveIndicative,
+        },
+        {
           title: 'Future',
           name: 'future',
           grammarChart: FutureActiveIndicative,
+        },
+        {
+          title: 'Future Perfect',
+          name: 'future_perfect',
+          grammarChart: FuturePerfectActiveIndicative,
         },
       ],
     },
@@ -57,6 +75,16 @@ const FourthConjugationActive: Topic = {
           title: 'Imperfect',
           name: 'imperfect',
           grammarChart: ImperfectActiveSubjunctive,
+        },
+        {
+          title: 'Perfect',
+          name: 'perfect',
+          grammarChart: PerfectActiveSubjunctive,
+        },
+        {
+          title: 'Pluperfect',
+          name: 'pluperfect',
+          grammarChart: PluperfectActiveSubjunctive,
         },
       ],
     },
@@ -87,9 +115,19 @@ const FourthConjugationPassive: Topic = {
           grammarChart: ImperfectPassiveIndicative,
         },
         {
+          title: 'Pluperfect',
+          name: 'pluperfect',
+          grammarChart: PluperfectPassiveIndicative,
+        },
+        {
           title: 'Future',
           name: 'future',
           grammarChart: FuturePassiveIndicative,
+        },
+        {
+          title: 'Future Perfect',
+          name: 'future_perfect',
+          grammarChart: FuturePerfectPassiveIndicative,
         },
       ],
     },
@@ -106,6 +144,16 @@ const FourthConjugationPassive: Topic = {
           title: 'Imperfect',
           name: 'imperfect',
           grammarChart: ImperfectPassiveSubjunctive,
+        },
+        {
+          title: 'Perfect',
+          name: 'perfect',
+          grammarChart: PerfectPassiveSubjunctive,
+        },
+        {
+          title: 'Pluperfect',
+          name: 'pluperfect',
+          grammarChart: PluperfectPassiveSubjunctive,
         },
       ],
     },

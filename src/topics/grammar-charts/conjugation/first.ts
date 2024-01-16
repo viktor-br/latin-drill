@@ -191,3 +191,131 @@ export const ImperfectPassiveIndicative: GrammarChart = {
     },
   },
 };
+
+export const PluperfectActiveIndicative: GrammarChart = {
+  title: 'Pluperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'amāveram',
+      '2nd Person': 'amāverās',
+      '3rd Person': 'amāverat',
+    },
+    Plural: {
+      '1st Person': 'amāverāmus',
+      '2nd Person': 'amāverātis',
+      '3rd Person': 'amāverant',
+    },
+  },
+};
+
+export const PluperfectPassiveIndicative: GrammarChart = {
+  title: 'Pluperfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'amātus eram',
+      '2nd Person': 'amātus erās',
+      '3rd Person': 'amātus erāt',
+    },
+    Plural: {
+      '1st Person': 'amātī erāmus',
+      '2nd Person': 'amātī erātis',
+      '3rd Person': 'amātī erant',
+    },
+  },
+};
+
+export const FuturePerfectActiveIndicative: GrammarChart = {
+  title: 'Future Perfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'amāverō',
+      '2nd Person': 'amāveris',
+      '3rd Person': 'amāverit',
+    },
+    Plural: {
+      '1st Person': 'amāverimus',
+      '2nd Person': 'amāveritis',
+      '3rd Person': 'amāverint',
+    },
+  },
+};
+
+export const FuturePerfectPassiveIndicative: GrammarChart = {
+  title: 'Future Perfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'amātus erō',
+      '2nd Person': 'amātus eris',
+      '3rd Person': 'amātus erit',
+    },
+    Plural: {
+      '1st Person': 'amātī erimus',
+      '2nd Person': 'amātī eritis',
+      '3rd Person': 'amātī erunt',
+    },
+  },
+};
+
+export const PerfectActiveSubjunctive: GrammarChart = {
+  title: 'Perfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'amāverim',
+      '2nd Person': 'amāverīs',
+      '3rd Person': 'amāverit',
+    },
+    Plural: {
+      '1st Person': 'amāverīmus',
+      '2nd Person': 'amāverītis',
+      '3rd Person': 'amāverint',
+    },
+  },
+};
+
+export const PerfectPassiveSubjunctive: GrammarChart = {
+  title: 'Perfect Passive Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'amātus sim',
+      '2nd Person': 'amātus sis',
+      '3rd Person': 'amātus sit',
+    },
+    Plural: {
+      '1st Person': 'amātī sīmus',
+      '2nd Person': 'amātī sītis',
+      '3rd Person': 'amātī sint',
+    },
+  },
+};
+
+export const PluperfectActiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'amāvissem',
+      '2nd Person': 'amāvissēs',
+      '3rd Person': 'amāvisset',
+    },
+    Plural: {
+      '1st Person': 'amāvissēmus',
+      '2nd Person': 'amāvissētis',
+      '3rd Person': 'amāvissent',
+    },
+  },
+};
+
+export const PluperfectPassiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Passive Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'amātus essem',
+      '2nd Person': 'amātus essēs',
+      '3rd Person': 'amātus esset',
+    },
+    Plural: {
+      '1st Person': 'amātī essēmus',
+      '2nd Person': 'amātī essētis',
+      '3rd Person': 'amātī essent',
+    },
+  },
+};

@@ -95,3 +95,67 @@ export const ImperfectActiveIndicative: GrammarChart = {
     },
   },
 };
+
+export const PluperfectActiveIndicative: GrammarChart = {
+  title: 'Pluperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'ieram',
+      '2nd Person': 'ierās',
+      '3rd Person': 'ierat',
+    },
+    Plural: {
+      '1st Person': 'ierāmus',
+      '2nd Person': 'ierātis',
+      '3rd Person': 'ierant',
+    },
+  },
+};
+
+export const FuturePerfectActiveIndicative: GrammarChart = {
+  title: 'Future Perfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'ierō',
+      '2nd Person': 'ieris',
+      '3rd Person': 'ierit',
+    },
+    Plural: {
+      '1st Person': 'ierimus',
+      '2nd Person': 'ieritis',
+      '3rd Person': 'ierint',
+    },
+  },
+};
+
+export const PerfectActiveSubjunctive: GrammarChart = {
+  title: 'Perfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'ierim',
+      '2nd Person': 'ierīs',
+      '3rd Person': 'ierit',
+    },
+    Plural: {
+      '1st Person': 'ierīmus',
+      '2nd Person': 'ierītis',
+      '3rd Person': 'ierint',
+    },
+  },
+};
+
+export const PluperfectActiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'issem',
+      '2nd Person': 'issēs',
+      '3rd Person': 'isset',
+    },
+    Plural: {
+      '1st Person': 'issēmus',
+      '2nd Person': 'issētis',
+      '3rd Person': 'issent',
+    },
+  },
+};

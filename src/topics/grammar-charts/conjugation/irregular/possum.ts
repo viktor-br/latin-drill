@@ -95,3 +95,67 @@ export const ImperfectActiveIndicative: GrammarChart = {
     },
   },
 };
+
+export const PluperfectActiveIndicative: GrammarChart = {
+  title: 'Pluperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'potueram',
+      '2nd Person': 'potuerās',
+      '3rd Person': 'potuerat',
+    },
+    Plural: {
+      '1st Person': 'potuerāmus',
+      '2nd Person': 'potuerātis',
+      '3rd Person': 'potuerant',
+    },
+  },
+};
+
+export const FuturePerfectActiveIndicative: GrammarChart = {
+  title: 'Future Perfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'potuerō',
+      '2nd Person': 'potueris',
+      '3rd Person': 'potuerit',
+    },
+    Plural: {
+      '1st Person': 'potuerimus',
+      '2nd Person': 'potueritis',
+      '3rd Person': 'potuerint',
+    },
+  },
+};
+
+export const PerfectActiveSubjunctive: GrammarChart = {
+  title: 'Perfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'potuerim',
+      '2nd Person': 'potuerīs',
+      '3rd Person': 'potuerit',
+    },
+    Plural: {
+      '1st Person': 'potuerīmus',
+      '2nd Person': 'potuerītis',
+      '3rd Person': 'potuerint',
+    },
+  },
+};
+
+export const PluperfectActiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'potuissem',
+      '2nd Person': 'potuissēs',
+      '3rd Person': 'potuisset',
+    },
+    Plural: {
+      '1st Person': 'potuissēmus',
+      '2nd Person': 'potuissētis',
+      '3rd Person': 'potuissent',
+    },
+  },
+};

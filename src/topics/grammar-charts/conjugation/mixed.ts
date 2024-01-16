@@ -191,3 +191,131 @@ export const ImperfectPassiveIndicative: GrammarChart = {
     },
   },
 };
+
+export const PluperfectActiveIndicative: GrammarChart = {
+  title: 'Pluperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'cēperam',
+      '2nd Person': 'cēperās',
+      '3rd Person': 'cēperat',
+    },
+    Plural: {
+      '1st Person': 'cēperāmus',
+      '2nd Person': 'cēperātis',
+      '3rd Person': 'cēperant',
+    },
+  },
+};
+
+export const PluperfectPassiveIndicative: GrammarChart = {
+  title: 'Pluperfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'captus eram',
+      '2nd Person': 'captus erās',
+      '3rd Person': 'captus erāt',
+    },
+    Plural: {
+      '1st Person': 'captī erāmus',
+      '2nd Person': 'captī erātis',
+      '3rd Person': 'captī erant',
+    },
+  },
+};
+
+export const FuturePerfectActiveIndicative: GrammarChart = {
+  title: 'Future Perfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'cēperō',
+      '2nd Person': 'cēperis',
+      '3rd Person': 'cēperit',
+    },
+    Plural: {
+      '1st Person': 'cēperimus',
+      '2nd Person': 'cēperitis',
+      '3rd Person': 'cēperint',
+    },
+  },
+};
+
+export const FuturePerfectPassiveIndicative: GrammarChart = {
+  title: 'Future Perfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'captus erō',
+      '2nd Person': 'captus eris',
+      '3rd Person': 'captus erit',
+    },
+    Plural: {
+      '1st Person': 'captī erimus',
+      '2nd Person': 'captī eritis',
+      '3rd Person': 'captī erunt',
+    },
+  },
+};
+
+export const PerfectActiveSubjunctive: GrammarChart = {
+  title: 'Perfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'cēperim',
+      '2nd Person': 'cēperīs',
+      '3rd Person': 'cēperit',
+    },
+    Plural: {
+      '1st Person': 'cēperīmus',
+      '2nd Person': 'cēperītis',
+      '3rd Person': 'cēperint',
+    },
+  },
+};
+
+export const PerfectPassiveSubjunctive: GrammarChart = {
+  title: 'Perfect Passive Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'captus sim',
+      '2nd Person': 'captus sis',
+      '3rd Person': 'captus sit',
+    },
+    Plural: {
+      '1st Person': 'captī sīmus',
+      '2nd Person': 'captī sītis',
+      '3rd Person': 'captī sint',
+    },
+  },
+};
+
+export const PluperfectActiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'cēpissem',
+      '2nd Person': 'cēpissēs',
+      '3rd Person': 'cēpisset',
+    },
+    Plural: {
+      '1st Person': 'cēpissēmus',
+      '2nd Person': 'cēpissētis',
+      '3rd Person': 'cēpissent',
+    },
+  },
+};
+
+export const PluperfectPassiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Passive Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'captus essem',
+      '2nd Person': 'captus essēs',
+      '3rd Person': 'captus esset',
+    },
+    Plural: {
+      '1st Person': 'captī essēmus',
+      '2nd Person': 'captī essētis',
+      '3rd Person': 'captī essent',
+    },
+  },
+};

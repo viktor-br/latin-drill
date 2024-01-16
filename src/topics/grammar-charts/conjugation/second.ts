@@ -191,3 +191,131 @@ export const ImperfectPassiveIndicative: GrammarChart = {
     },
   },
 };
+
+export const PluperfectActiveIndicative: GrammarChart = {
+  title: 'Pluperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'monueram',
+      '2nd Person': 'monuerās',
+      '3rd Person': 'monuerat',
+    },
+    Plural: {
+      '1st Person': 'monuerāmus',
+      '2nd Person': 'monuerātis',
+      '3rd Person': 'monuerant',
+    },
+  },
+};
+
+export const PluperfectPassiveIndicative: GrammarChart = {
+  title: 'Pluperfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'monitus eram',
+      '2nd Person': 'monitus erās',
+      '3rd Person': 'monitus erat',
+    },
+    Plural: {
+      '1st Person': 'moniti erāmus',
+      '2nd Person': 'moniti erātis',
+      '3rd Person': 'moniti erant',
+    },
+  },
+};
+
+export const FuturePerfectActiveIndicative: GrammarChart = {
+  title: 'Future Perfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'monuerō',
+      '2nd Person': 'monueris',
+      '3rd Person': 'monuerit',
+    },
+    Plural: {
+      '1st Person': 'monuerimus',
+      '2nd Person': 'monueritis',
+      '3rd Person': 'monuerint',
+    },
+  },
+};
+
+export const FuturePerfectPassiveIndicative: GrammarChart = {
+  title: 'Future Perfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'monitus erō',
+      '2nd Person': 'monitus eris',
+      '3rd Person': 'monitus erit',
+    },
+    Plural: {
+      '1st Person': 'monitī erimus',
+      '2nd Person': 'monitī eritis',
+      '3rd Person': 'monitī erunt',
+    },
+  },
+};
+
+export const PerfectActiveSubjunctive: GrammarChart = {
+  title: 'Perfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'monuerim',
+      '2nd Person': 'monuerīs',
+      '3rd Person': 'monuerit',
+    },
+    Plural: {
+      '1st Person': 'monuerīmus',
+      '2nd Person': 'monuerītis',
+      '3rd Person': 'monuerint',
+    },
+  },
+};
+
+export const PerfectPassiveSubjunctive: GrammarChart = {
+  title: 'Perfect Passive Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'monitus sim',
+      '2nd Person': 'monitus sis',
+      '3rd Person': 'monitus sit',
+    },
+    Plural: {
+      '1st Person': 'monitī sīmus',
+      '2nd Person': 'monitī sītis',
+      '3rd Person': 'monitī sint',
+    },
+  },
+};
+
+export const PluperfectActiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'monuissem',
+      '2nd Person': 'monuissēs',
+      '3rd Person': 'monuisset',
+    },
+    Plural: {
+      '1st Person': 'monuissēmus',
+      '2nd Person': 'monuissētis',
+      '3rd Person': 'monuissent',
+    },
+  },
+};
+
+export const PluperfectPassiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Passive Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'monitus essem',
+      '2nd Person': 'monitus essēs',
+      '3rd Person': 'monitus esset',
+    },
+    Plural: {
+      '1st Person': 'monitī essēmus',
+      '2nd Person': 'monitī essētis',
+      '3rd Person': 'monitī essent',
+    },
+  },
+};

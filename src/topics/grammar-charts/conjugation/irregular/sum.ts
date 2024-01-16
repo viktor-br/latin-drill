@@ -95,3 +95,67 @@ export const ImperfectActiveIndicative: GrammarChart = {
     },
   },
 };
+
+export const PluperfectActiveIndicative: GrammarChart = {
+  title: 'Pluperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'fueram',
+      '2nd Person': 'fuerās',
+      '3rd Person': 'fuerat',
+    },
+    Plural: {
+      '1st Person': 'fuerāmus',
+      '2nd Person': 'fuerātis',
+      '3rd Person': 'fuerant',
+    },
+  },
+};
+
+export const FuturePerfectActiveIndicative: GrammarChart = {
+  title: 'Future Perfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'fuerō',
+      '2nd Person': 'fueris',
+      '3rd Person': 'fuerit',
+    },
+    Plural: {
+      '1st Person': 'fuerimus',
+      '2nd Person': 'fueritis',
+      '3rd Person': 'fuerint',
+    },
+  },
+};
+
+export const PerfectActiveSubjunctive: GrammarChart = {
+  title: 'Perfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'fuerim',
+      '2nd Person': 'fuerīs',
+      '3rd Person': 'fuerit',
+    },
+    Plural: {
+      '1st Person': 'fuerīmus',
+      '2nd Person': 'fuerītis',
+      '3rd Person': 'fuerint',
+    },
+  },
+};
+
+export const PluperfectActiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'fuissem',
+      '2nd Person': 'fuissēs',
+      '3rd Person': 'fuisset',
+    },
+    Plural: {
+      '1st Person': 'fuissēmus',
+      '2nd Person': 'fuissētis',
+      '3rd Person': 'fuissent',
+    },
+  },
+};

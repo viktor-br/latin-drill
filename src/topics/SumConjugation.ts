@@ -6,6 +6,10 @@ import {
   PresentActiveSubjunctive,
   ImperfectActiveSubjunctive,
   ImperfectActiveIndicative,
+  PluperfectActiveIndicative,
+  FuturePerfectActiveIndicative,
+  PerfectActiveSubjunctive,
+  PluperfectActiveSubjunctive,
 } from './grammar-charts/conjugation/irregular/sum';
 
 const ConjugationActive: Topic = {
@@ -32,9 +36,19 @@ const ConjugationActive: Topic = {
           grammarChart: ImperfectActiveIndicative,
         },
         {
+          title: 'Pluperfect',
+          name: 'pluperfect',
+          grammarChart: PluperfectActiveIndicative,
+        },
+        {
           title: 'Future',
           name: 'future',
           grammarChart: FutureActiveIndicative,
+        },
+        {
+          title: 'Future Perfect',
+          name: 'future_perfect',
+          grammarChart: FuturePerfectActiveIndicative,
         },
       ],
     },
@@ -51,6 +65,16 @@ const ConjugationActive: Topic = {
           title: 'Imperfect',
           name: 'imperfect',
           grammarChart: ImperfectActiveSubjunctive,
+        },
+        {
+          title: 'Perfect',
+          name: 'perfect',
+          grammarChart: PerfectActiveSubjunctive,
+        },
+        {
+          title: 'Pluperfect',
+          name: 'pluperfect',
+          grammarChart: PluperfectActiveSubjunctive,
         },
       ],
     },

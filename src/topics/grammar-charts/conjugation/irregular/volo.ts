@@ -95,3 +95,67 @@ export const ImperfectActiveIndicative: GrammarChart = {
     },
   },
 };
+
+export const PluperfectActiveIndicative: GrammarChart = {
+  title: 'Pluperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'volueram',
+      '2nd Person': 'voluerās',
+      '3rd Person': 'voluerat',
+    },
+    Plural: {
+      '1st Person': 'voluerāmus',
+      '2nd Person': 'voluerātis',
+      '3rd Person': 'voluerant',
+    },
+  },
+};
+
+export const FuturePerfectActiveIndicative: GrammarChart = {
+  title: 'Future Perfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'voluerō',
+      '2nd Person': 'volueris',
+      '3rd Person': 'voluerit',
+    },
+    Plural: {
+      '1st Person': 'voluerimus',
+      '2nd Person': 'volueritis',
+      '3rd Person': 'voluerint',
+    },
+  },
+};
+
+export const PerfectActiveSubjunctive: GrammarChart = {
+  title: 'Perfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'voluerim',
+      '2nd Person': 'voluerīs',
+      '3rd Person': 'voluerit',
+    },
+    Plural: {
+      '1st Person': 'voluerīmus',
+      '2nd Person': 'voluerītis',
+      '3rd Person': 'voluerint',
+    },
+  },
+};
+
+export const PluperfectActiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'voluissem',
+      '2nd Person': 'voluissēs',
+      '3rd Person': 'voluisset',
+    },
+    Plural: {
+      '1st Person': 'voluissēmus',
+      '2nd Person': 'voluissētis',
+      '3rd Person': 'voluissent',
+    },
+  },
+};

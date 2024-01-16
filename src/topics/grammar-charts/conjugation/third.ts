@@ -191,3 +191,131 @@ export const ImperfectPassiveIndicative: GrammarChart = {
     },
   },
 };
+
+export const PluperfectActiveIndicative: GrammarChart = {
+  title: 'Pluperfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'rēxeram',
+      '2nd Person': 'rēxerās',
+      '3rd Person': 'rēxerat',
+    },
+    Plural: {
+      '1st Person': 'rēxerāmus',
+      '2nd Person': 'rēxerātis',
+      '3rd Person': 'rēxerant',
+    },
+  },
+};
+
+export const PluperfectPassiveIndicative: GrammarChart = {
+  title: 'Pluperfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'rēctus eram',
+      '2nd Person': 'rēctus erās',
+      '3rd Person': 'rēctus erāt',
+    },
+    Plural: {
+      '1st Person': 'rēcti erāmus',
+      '2nd Person': 'rēcti erātis',
+      '3rd Person': 'rēcti erant',
+    },
+  },
+};
+
+export const FuturePerfectActiveIndicative: GrammarChart = {
+  title: 'Future Perfect Active Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'rēxerō',
+      '2nd Person': 'rēxeris',
+      '3rd Person': 'rēxerit',
+    },
+    Plural: {
+      '1st Person': 'rēxerimus',
+      '2nd Person': 'rēxeritis',
+      '3rd Person': 'rēxerint',
+    },
+  },
+};
+
+export const FuturePerfectPassiveIndicative: GrammarChart = {
+  title: 'Future Perfect Passive Indicative',
+  data: {
+    Singular: {
+      '1st Person': 'rēctus erō',
+      '2nd Person': 'rēctus eris',
+      '3rd Person': 'rēctus erit',
+    },
+    Plural: {
+      '1st Person': 'rēctī erimus',
+      '2nd Person': 'rēctī eritis',
+      '3rd Person': 'rēctī erunt',
+    },
+  },
+};
+
+export const PerfectActiveSubjunctive: GrammarChart = {
+  title: 'Perfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'rēxerim',
+      '2nd Person': 'rēxerīs',
+      '3rd Person': 'rēxerit',
+    },
+    Plural: {
+      '1st Person': 'rēxerīmus',
+      '2nd Person': 'rēxerītis',
+      '3rd Person': 'rēxerint',
+    },
+  },
+};
+
+export const PerfectPassiveSubjunctive: GrammarChart = {
+  title: 'Perfect Passive Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'rēctus sim',
+      '2nd Person': 'rēctus sis',
+      '3rd Person': 'rēctus sit',
+    },
+    Plural: {
+      '1st Person': 'rēctī sīmus',
+      '2nd Person': 'rēctī sītis',
+      '3rd Person': 'rēctī sint',
+    },
+  },
+};
+
+export const PluperfectActiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Active Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'rēxissem',
+      '2nd Person': 'rēxissēs',
+      '3rd Person': 'rēxisset',
+    },
+    Plural: {
+      '1st Person': 'rēxissēmus',
+      '2nd Person': 'rēxissētis',
+      '3rd Person': 'rēxissent',
+    },
+  },
+};
+
+export const PluperfectPassiveSubjunctive: GrammarChart = {
+  title: 'Pluperfect Passive Subjunctive',
+  data: {
+    Singular: {
+      '1st Person': 'rēctus essem',
+      '2nd Person': 'rēctus essēs',
+      '3rd Person': 'rēctus esset',
+    },
+    Plural: {
+      '1st Person': 'rēctī essēmus',
+      '2nd Person': 'rēctī essētis',
+      '3rd Person': 'rēctī essent',
+    },
+  },
+};
