@@ -26,10 +26,16 @@ const VoloConjugation: Topic = {
   topics: [await CreateConjugationActive('irregular/volo')],
 };
 
+const FeroConjugation: Topic = {
+  title: 'ferō,ferre,tulī,lātum',
+  name: 'fero',
+  topics: [await CreateConjugationActive('irregular/fero')],
+};
+
 const IrregularVerbsConjugation: Topic = {
   title: 'Irregular Verbs',
   name: 'irregular',
-  topics: [VoloConjugation, SumConjugation, PossumConjugation, EoConjugation],
+  topics: [EoConjugation, FeroConjugation, PossumConjugation, SumConjugation, VoloConjugation],
 };
 
 export default IrregularVerbsConjugation;
