@@ -15,7 +15,7 @@ function createCardsNavigationElementFromTopic({ title, name, topics }: Topic): 
   };
 }
 
-export default function GenerateCardsNavigation(): NavigationElement[] {
+export default function GenerateGrammarCardsNavigation(): NavigationElement[] {
   if (rootTopic.topics === undefined) {
     throw new Error('rootTopic should have sub topics');
   }

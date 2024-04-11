@@ -2,9 +2,9 @@ import { WordTypeEnum } from '../types/WordTypeEnum';
 import { LangEnum } from '../types/LangEnum';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import WordQuestionEng from './WordQuestionEng';
+import WordCardQuestionEng from './WordCardQuestionEng';
 import words from '../topics/Words';
-import WordQuestionLat from './WordQuestionLat';
+import WordCardQuestionLat from './WordCardQuestionLat';
 import { WordType } from '../types/WordType';
 
 export interface WordQuestionProps {
@@ -12,7 +12,7 @@ export interface WordQuestionProps {
   readonly questionLang: LangEnum;
 }
 
-export default function WordQuestion() {
+export default function WordCardQuestion() {
   const location = useLocation();
   const [questionLang, setQuestionLang] = useState(LangEnum.ENG);
   const [currentWords, setCurrentWords] = useState([] as WordType[]);
@@ -31,9 +31,9 @@ export default function WordQuestion() {
 
   return currentWords.length > 0 ? (
     questionLang === LangEnum.ENG ? (
-      <WordQuestionEng words={currentWords} />
+      <WordCardQuestionEng words={currentWords} />
     ) : (
-      <WordQuestionLat words={currentWords} />
+      <WordCardQuestionLat words={currentWords} />
     )
   ) : (
     <></>

@@ -2,11 +2,10 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Contact from './components/Contact';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Cards } from './components/Cards';
+import { GrammarCards } from './components/GrammarCards';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Words from './components/Words';
+import WordCards from './components/WordCards';
 
 function App() {
   const topNavigation =
@@ -24,7 +23,7 @@ function App() {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/cards/">Cards</Nav.Link>
+              <Nav.Link href="/grammar/">Grammar</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href="/words/">Words</Nav.Link>
@@ -35,9 +34,9 @@ function App() {
       <Router>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/cards/*" element={<Cards />} />
+          <Route path="/grammar/*" element={<GrammarCards />} />
           {/*<Route path="/contact" element={<Contact />} />*/}
-          <Route path="/words/*" element={<Words />} />
+          <Route path="/words/*" element={<WordCards />} />
         </Routes>
       </Router>
     </Container>

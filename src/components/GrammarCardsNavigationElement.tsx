@@ -3,7 +3,7 @@ import { Container, Nav, NavItem } from 'react-bootstrap';
 import { CardsNavigationElementProps } from '../types/CardsNavigationElementProps';
 import { Link, useLocation } from 'react-router-dom';
 
-export default function CardsNavigationElement(props: CardsNavigationElementProps) {
+export default function GrammarCardsNavigationElement(props: CardsNavigationElementProps) {
   const { navigationElement, parentPath, level } = props;
   const { label, name, subElements } = navigationElement;
   const path = parentPath + name + '/';
@@ -30,7 +30,7 @@ export default function CardsNavigationElement(props: CardsNavigationElementProp
       {subElements.length > 0 && (
         <Nav className={cls}>
           {subElements.map((navigationSubElement) => (
-            <CardsNavigationElement
+            <GrammarCardsNavigationElement
               {...{ navigationElement: navigationSubElement, parentPath: path, level: level + 1 }}
               key={path + '/' + navigationSubElement.name}
             />

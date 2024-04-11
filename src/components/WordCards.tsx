@@ -1,28 +1,26 @@
 import useWindowInnerWidth, { Breakpoints } from '../hooks/useWindowInnerWidth';
 import { Col, Row } from 'react-bootstrap';
-import CardsNavigation from './CardsNavigation';
-import QuestionCard from './QuestionCard';
 import React from 'react';
-import WordsNavigation from './WordsNavigation';
-import WordQuestion from './WordQuestion';
+import WordCardsNavigation from './WordCardsNavigation';
+import WordCardQuestion from './WordCardQuestion';
 
-export default function Words() {
+export default function WordCards() {
   const width = useWindowInnerWidth();
 
   return width > Breakpoints.XS ? (
     <Row>
       <Col sm={5}>
-        <WordsNavigation />
+        <WordCardsNavigation />
       </Col>
       <Col sm={6}>
-        <WordQuestion />
+        <WordCardQuestion />
       </Col>
       <Col sm={1}></Col>
     </Row>
   ) : (
     <>
-      <WordsNavigation />
-      <WordQuestion />
+      <WordCardsNavigation />
+      <WordCardQuestion />
     </>
   );
 }

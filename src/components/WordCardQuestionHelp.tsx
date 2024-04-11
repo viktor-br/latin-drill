@@ -2,12 +2,12 @@ import { formatWordParts, isNoun, isVerb, WordType } from '../types/WordType';
 import { LangEnum } from '../types/LangEnum';
 import { useEffect, useState } from 'react';
 
-interface WordHelpProps {
+interface WordCardQuestionHelpProps {
   readonly word: WordType;
   readonly lang: LangEnum;
 }
 
-export default function WordHelp({ word, lang }: WordHelpProps) {
+export default function WordCardQuestionHelp({ word, lang }: WordCardQuestionHelpProps) {
   const [latin, setLatin] = useState(formatWordParts(word));
   const [translations, setTranslations] = useState(word.translations.join(', '));
   const [language, setLanguage] = useState(lang);

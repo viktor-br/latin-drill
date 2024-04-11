@@ -60,7 +60,7 @@ function GenerateQuestionsByTopic(
   return [];
 }
 
-function GenerateQuestionsByTopicKeys(topicKeys: string[]): Question[] {
+export default function GenerateGrammarCardQuestionsByTopicKeys(topicKeys: string[]): Question[] {
   const { topic, parentTopics } = GetTopicCardByKeys(topicKeys);
 
   const topicPath = parentTopics.reduce(
@@ -74,5 +74,3 @@ function GenerateQuestionsByTopicKeys(topicKeys: string[]): Question[] {
 
   return GenerateQuestionsByTopic(topic, topicPath);
 }
-
-export default GenerateQuestionsByTopicKeys;

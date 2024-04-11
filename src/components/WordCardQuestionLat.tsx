@@ -1,11 +1,11 @@
 import { formatWordParts, isVerb, shuffleWordList, WordType } from '../types/WordType';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Button, Card, Container, Form, Offcanvas } from 'react-bootstrap';
-import WordHelp from './WordHelp';
+import WordCardQuestionHelp from './WordCardQuestionHelp';
 import { LangEnum } from '../types/LangEnum';
 import { CardState, cardStateLabel } from '../types/CardState';
 
-interface WordQuestionLatProps {
+interface WordCardQuestionLatProps {
   readonly words: WordType[];
 }
 
@@ -20,7 +20,7 @@ function validate(word: WordType, value: string): boolean {
   );
 }
 
-export default function WordQuestionLat({ words }: WordQuestionLatProps) {
+export default function WordCardQuestionLat({ words }: WordCardQuestionLatProps) {
   const [wordList, setWordList] = useState([] as WordType[]);
   const [state, setState] = useState(CardState.Asked);
   const [isHelpVisible, setHelpVisible] = useState(false);
@@ -86,7 +86,7 @@ export default function WordQuestionLat({ words }: WordQuestionLatProps) {
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          {<WordHelp word={wordList[wordIndex]} lang={LangEnum.LAT} />}
+          {<WordCardQuestionHelp word={wordList[wordIndex]} lang={LangEnum.LAT} />}
         </Offcanvas.Body>
       </Offcanvas>
       <Card.Header>

@@ -74,11 +74,11 @@ function createGrammarChartTables(grammarChartData: GrammarChartData): HelpTable
   });
 }
 
-export interface QuestionHelpProps {
+export interface GrammarCardQuestionHelpProps {
   readonly path: string[];
 }
 
-export default function QuestionHelp({ path }: QuestionHelpProps) {
+export default function GrammarCardQuestionHelp({ path }: GrammarCardQuestionHelpProps) {
   const [table, setTable]: [HelpTable[], any] = useState([]);
 
   useEffect(() => {

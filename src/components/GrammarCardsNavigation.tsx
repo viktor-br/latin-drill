@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import CardsNavigationElement from './CardsNavigationElement';
+import GrammarCardsNavigationElement from './GrammarCardsNavigationElement';
 import { NavigationElement } from '../types/NavigationElement';
 
-interface NavigationProps {
+interface GrammarCardsNavigationProps {
   readonly navigation: NavigationElement[];
 }
 
-export default function CardsNavigation(props: NavigationProps) {
+export default function GrammarCardsNavigation(props: GrammarCardsNavigationProps) {
   const { navigation } = props;
 
   return (
@@ -15,9 +15,9 @@ export default function CardsNavigation(props: NavigationProps) {
       <Navbar>
         <Nav className="flex-column">
           {navigation.map((navigationElement) => (
-            <CardsNavigationElement
-              {...{ navigationElement, parentPath: '/cards/', level: 0 }}
-              key={'/cards/' + navigationElement.name}
+            <GrammarCardsNavigationElement
+              {...{ navigationElement, parentPath: '/grammar/', level: 0 }}
+              key={'/grammar/' + navigationElement.name}
             />
           ))}
         </Nav>

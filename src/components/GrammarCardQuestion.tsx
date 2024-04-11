@@ -1,13 +1,13 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Question } from '../types/Question';
-import GenerateQuestionsByTopicKeys from '../service/GenerateQuestionsByTopicKeys';
+import GenerateGrammarCardQuestionsByTopicKeys from '../service/GenerateGrammarCardQuestionsByTopicKeys';
 import { useLocation } from 'react-router-dom';
 import { Button, Form, Card, Container, Offcanvas } from 'react-bootstrap';
-import ValidateAnswer from '../service/ValidateAnswer';
-import QuestionHelp from './QuestionHelp';
+import ValidateGrammarCardAnswer from '../service/ValidateGrammarCardAnswer';
+import GrammarCardQuestionHelp from './GrammarCardQuestionHelp';
 import { CardState, cardStateLabel } from '../types/CardState';
 
-export interface CardProps {
+export interface GrammarCardQuestionProps {
   readonly prefix: string;
 }
 
@@ -31,7 +31,7 @@ function shuffle(questions: Question[]) {
   return questions;
 }
 
-export default function QuestionCard({ prefix }: CardProps) {
+export default function GrammarCardQuestion({ prefix }: GrammarCardQuestionProps) {
   const location = useLocation();
   const [state, setState] = useState(CardState.Asked);
   const [questionIndex, setQuestionIndex]: [number, any] = useState(0);
@@ -65,7 +65,7 @@ export default function QuestionCard({ prefix }: CardProps) {
       }
     } else if (state === CardState.Asked) {
       const isAnswerValid =
-        questions.length > 0 ? ValidateAnswer(questions[questionIndex], answer) : false;
+        questions.length > 0 ? ValidateGrammarCardAnswer(questions[questionIndex], answer) : false;
       setValid(isAnswerValid);
       setInvalid(!isAnswerValid);
 
@@ -86,7 +86,9 @@ export default function QuestionCard({ prefix }: CardProps) {
     setQuestionIndex(0);
     setQuestions(
       shuffle(
-        GenerateQuestionsByTopicKeys(extractTopicKeys(location.pathname.replace(prefix, ''))),
+        GenerateGrammarCardQuestionsByTopicKeys(
+          extractTopicKeys(location.pathname.replace(prefix, '')),
+        ),
       ),
     );
   }, [location.pathname, prefix, reset]);
@@ -102,7 +104,7 @@ export default function QuestionCard({ prefix }: CardProps) {
           <Offcanvas.Title>{questions[questionIndex].title}</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <QuestionHelp
+          <GrammarCardQuestionHelp
             {...{
               path: questions[questionIndex].topicPath.path,
             }}

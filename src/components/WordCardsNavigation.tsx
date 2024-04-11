@@ -2,7 +2,7 @@ import { Container, Nav, Navbar, NavItem } from 'react-bootstrap';
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-export default function WordsNavigation() {
+export default function WordCardsNavigation() {
   const location = useLocation();
 
   return (

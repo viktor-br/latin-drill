@@ -8,8 +8,6 @@ function removeDiacritic(s: string): string {
     .replace(/\p{Diacritic}/gu, '');
 }
 
-function ValidateAnswer(question: Question, userAnswer: Answer) {
+export default function ValidateGrammarCardAnswer(question: Question, userAnswer: Answer) {
   return removeDiacritic(question.rightAnswer) === removeDiacritic(userAnswer);
 }
-
-export default ValidateAnswer;

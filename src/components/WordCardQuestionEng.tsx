@@ -3,11 +3,11 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { countPrinciples, isVerb, shuffleWordList, WordType } from '../types/WordType';
 import { Verb } from '../types/Verb';
 import { Noun } from '../types/Noun';
-import WordHelp from './WordHelp';
+import WordCardQuestionHelp from './WordCardQuestionHelp';
 import { LangEnum } from '../types/LangEnum';
 import { CardState, cardStateLabel } from '../types/CardState';
 
-interface WordQuestionEngProps {
+interface WordCardQuestionEngProps {
   readonly words: WordType[];
 }
 
@@ -57,7 +57,7 @@ function validateAll(word: WordType, ...values: string[]): boolean {
   return false;
 }
 
-export default function WordQuestionEng({ words }: WordQuestionEngProps) {
+export default function WordCardQuestionEng({ words }: WordCardQuestionEngProps) {
   const [wordList, setWordList] = useState([] as WordType[]);
   const [state, setState] = useState(CardState.Asked);
   const [isHelpVisible, setHelpVisible] = useState(false);
@@ -139,7 +139,7 @@ export default function WordQuestionEng({ words }: WordQuestionEngProps) {
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          {<WordHelp word={wordList[wordIndex]} lang={LangEnum.ENG} />}
+          {<WordCardQuestionHelp word={wordList[wordIndex]} lang={LangEnum.ENG} />}
         </Offcanvas.Body>
       </Offcanvas>
       <Card.Header>
