@@ -5,32 +5,14 @@ import { useLocation } from 'react-router-dom';
 import { Button, Form, Card, Container, Offcanvas } from 'react-bootstrap';
 import ValidateAnswer from '../service/ValidateAnswer';
 import QuestionHelp from './QuestionHelp';
-import { Simulate } from 'react-dom/test-utils';
-import focus = Simulate.focus;
+import { CardState, cardStateLabel } from '../types/CardState';
 
 export interface CardProps {
   readonly prefix: string;
 }
 
-enum CardState {
-  Asked = 1,
-  Answered,
-  Completed,
-}
-
 function extractTopicKeys(path: string): string[] {
   return path.split('/').filter((s) => s !== '');
-}
-
-function buttonLabel(state: CardState) {
-  switch (state) {
-    case CardState.Asked:
-      return 'Answer';
-    case CardState.Answered:
-      return 'Next';
-    case CardState.Completed:
-      return 'Repeat Questions';
-  }
 }
 
 function shuffle(questions: Question[]) {
@@ -157,7 +139,7 @@ export default function QuestionCard({ prefix }: CardProps) {
             onKeyUp={(event) => event.key === 'Enter' && onClick()}
           />
           <Button variant="primary" size="lg" onClick={() => onClick()}>
-            {buttonLabel(state)}
+            {cardStateLabel(state)}
           </Button>
         </div>
       </Card.Body>

@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Cards } from './components/Cards';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import Words from './components/Words';
 
 function App() {
   const topNavigation =
@@ -26,7 +27,7 @@ function App() {
               <Nav.Link href="/cards/">Cards</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/contact/">Contact</Nav.Link>
+              <Nav.Link href="/words/">Words</Nav.Link>
             </Nav.Item>
           </Nav>
         </Container>
@@ -35,7 +36,8 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/cards/*" element={<Cards />} />
-          <Route path="/contact" element={<Contact />} />
+          {/*<Route path="/contact" element={<Contact />} />*/}
+          <Route path="/words/*" element={<Words />} />
         </Routes>
       </Router>
     </Container>
