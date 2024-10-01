@@ -18,19 +18,19 @@ const SecondConjugation: Topic = {
 const ThirdConjugation: Topic = {
   title: 'Third (rego,regere,rexi,rectum)',
   name: 'third',
-  topics: [await CreateConjugationActive('second'), await CreateConjugationPassive('third')],
+  topics: [await CreateConjugationActive('third'), await CreateConjugationPassive('third')],
 };
 
 const FourthConjugation: Topic = {
   title: 'Fourth (audio,audire,audivi,auditum)',
   name: 'fourth',
-  topics: [await CreateConjugationActive('second'), await CreateConjugationPassive('fourth')],
+  topics: [await CreateConjugationActive('fourth'), await CreateConjugationPassive('fourth')],
 };
 
 const MixedConjugation: Topic = {
   title: 'Mixed (capio,capere,cepi,captum)',
   name: 'mixed',
-  topics: [await CreateConjugationActive('second'), await CreateConjugationPassive('mixed')],
+  topics: [await CreateConjugationActive('mixed'), await CreateConjugationPassive('mixed')],
 };
 
 const Conjugation: Topic = {
